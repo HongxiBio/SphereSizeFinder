@@ -53,7 +53,7 @@ After launching SphereSizeFinder, the graphical interface will guide you through
 4. **Export Results**: Save the measurement data and/or processed image for further analysis or documentation.
 
    **Important**:  
-  To accurately measure the diameter of spheres, the presence of a reference circle within the input image is essential. And the parameter of diameter should be changed to. This reference circle must have a markedly different size compared to the spheres being measured. It serves as a scale for calibrating measurements, ensuring the precision of diameter calculations.
+  To accurately measure the diameter of spheres, the presence of a reference circle within the input image is essential. And the parameter of diameter should be changed too. This reference circle must have a markedly different size compared to the spheres being measured. It serves as a scale for calibrating measurements, ensuring the precision of diameter calculations.
 
 ## Contributing
 
