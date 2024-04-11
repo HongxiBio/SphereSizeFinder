@@ -1,6 +1,6 @@
 # SphereSizeFinder
 
-SphereSizeFinder is a Python-based tool that utilizes computer vision techniques to accurately measure the diameters of spheres in digital images. With a straightforward graphical interface, it simplifies the process of identifying spheres, measuring their sizes, and classifying them based on diameter. This tool is particularly useful for the tasks that reqiures precise, contactless and high-throughput measurements.
+SphereSizeFinder is a Python-based tool that utilizes OpenCV library to accurately measure the diameters of spheres in digital images. With a straightforward graphical interface, it simplifies the process of identifying spheres, measuring their sizes, and classifying them based on diameter. This tool is particularly useful for the tasks that reqiures precise, contactless and high-throughput measurements.
 
 ## Features
 
@@ -22,26 +22,26 @@ SphereSizeFinder is a Python-based tool that utilizes computer vision techniques
 
 1. **Clone the Repository**
 
-    ```
-    git clone https://github.com/HongxiBio/SphereSizeFinder.git
-    ```
+```
+git clone https://github.com/HongxiBio/SphereSizeFinder.git
+```
 
 2. **Install Dependencies**
 
    Navigate to the SphereSizeFinder directory and install the required packages using pip:
 
-    ```
-    cd SphereSizeFinder
-    pip install -r requirements.txt
-    ```
+```
+cd SphereSizeFinder
+pip install -r requirements.txt
+```
 
 4. **Run SphereSizeFinder**
 
-    Launch the tool by running:
+Launch the tool by running:
 
-    ```
-    python SphereSizeFinder.py
-    ```
+```
+python SphereSizeFinder.py
+```
 
 ## Usage
 
@@ -52,8 +52,8 @@ After launching SphereSizeFinder, the graphical interface will guide you through
 3. **Measure and Classify**: The tool will automatically detect spheres, measure their diameters, and optionally classify them into groups using k-means clustering.
 4. **Export Results**: Save the measurement data and/or processed image for further analysis or documentation.
 
-   **Important**:  
-  To accurately measure the diameter of spheres, the presence of a reference circle within the input image is essential. And the parameter of diameter should be changed too. This reference circle must have a markedly different size compared to the spheres being measured. It serves as a scale for calibrating measurements, ensuring the precision of diameter calculations.
+**Important**:  
+To accurately measure the diameter of spheres, the presence of a reference circle within the input image is essential. And the parameter of diameter should be changed too. This reference circle must have a markedly different size compared to the spheres being measured. It serves as a scale for calibrating measurements, ensuring the precision of diameter calculations.
 
 ## Contributing
 
