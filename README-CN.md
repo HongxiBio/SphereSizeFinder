@@ -40,7 +40,7 @@ pip install -r requirements.txt
  通过运行以下命令启动工具：
 
  ```
- python SphereSizeFinder.py
+ python scripts/SphereSizeFinder-CN.py
  ```
 
 ## 使用说明

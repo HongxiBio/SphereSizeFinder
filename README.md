@@ -40,7 +40,7 @@ pip install -r requirements.txt
 Launch the tool by running:
 
 ```
-python SphereSizeFinder.py
+python scripts/SphereSizeFinder-ENG.py
 ```
 
 ## Usage
